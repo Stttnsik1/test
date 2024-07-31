@@ -5,12 +5,13 @@ body {
     background-size: cover;
     touch-action: none;
     display: flex;
-    align-items: center;
+    max-width: 100vw;
     flex-direction: column;
-	-ms-user-select: none; 
-	-moz-user-select: none; 
-	-webkit-user-select: none; 
-	user-select: none
+    -ms-user-select: none; 
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    user-select: none;
+    align-items: center;
 }
 .tomat {
 border: 0;
