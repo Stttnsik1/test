@@ -5,18 +5,18 @@ body {
     background-size: cover;
     touch-action: none;
     display: flex;
-    max-width: 100vw;
     flex-direction: column;
-    -ms-user-select: none; 
-    -moz-user-select: none; 
-    -webkit-user-select: none; 
-    user-select: none;
-    align-items: center;
+	-ms-user-select: none; 
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	user-select: none
 }
 .tomat {
+margin-top: 5px;
 border: 0;
 background-image: url("https://i.postimg.cc/MGPbCDyV/204-CB983-DB1-B-40-E0-8-D22-360-CA8905-B32.jpg");
 box-shadow: none;
+align-items: center;
 }
 h1 {
 margin-top: 50px; /* 100px Старый параметр */
@@ -30,23 +30,8 @@ color: white;
 font-family: Arial;
 }
 .market {
-background-color:  #444444;
+background-image: url("https://i.postimg.cc/MGPbCDyV/204-CB983-DB1-B-40-E0-8-D22-360-CA8905-B32.jpg");
 font-family: Arial;
 color: white;
 border: none;
-}
-#footer {
-position: fixed; /* Фиксированное положение */
-padding: 10px; /* Поля вокруг текста */
-background: #444444; /* Цвет фона */
-color: #fff; /* Цвет текста */
-width: 100%; /* Ширина слоя */
-height: 7%;
-left: 0; bottom: 0; /* Левый нижний угол */
-}
-h4 {
-    font-family: Arial;
-    color: white;
-    font-size: 18px;
-    margin-top: 5px;
 }
