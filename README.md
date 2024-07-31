@@ -10,11 +10,9 @@
 <center><button class="tomat" id="myButton" onclick="earntomato()"><img src="https://i.postimg.cc/05Jd47rK/2687984-B-2-A93-4-D5-C-8-A0-F-ED2535041340.png" width="450px" height="450px"></button></center>
 </html>
 
-<div id="footer">
-<div>
+
 <form action="Market.html">
-<center><button class="market">🛒<br><h4>Market</h4></button></center>
-</div>
+<center><button class="market"><img src="https://i.postimg.cc/s2r3Z5sN/IMG-0473.png" width="100px" height="100px"></button></center>
 </form>
 
 <script>
